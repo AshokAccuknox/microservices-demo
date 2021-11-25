@@ -152,3 +152,11 @@ COPY ./sde ./sde
 
 
 <br />
+
+## Local File Inclusion
+**Deployment**
+step-1
+```
+kubectl apply -f release/lfi.yaml
+```
+
