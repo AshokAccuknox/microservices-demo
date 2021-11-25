@@ -170,9 +170,10 @@ step-3
 	<br />
 	2. Open this file "microservices-demo/src/frontend/templates/header.html
 	<br />
-	3. Go to line 39 and change the <a> tag herf IP address using LFI External IP
+	3. Go to line 39 and change the herf IP address using LFI External IP
 	<br />
 	4. Save the file and build docker image for frontend
+	<br />
 	<br />
 step-4
 ```
@@ -181,8 +182,6 @@ kubectl apply -f microservices-demo/release/kubernetes-manifests.yaml
 <br />
 <br />
 **LFI**
-<br />
-step-1
 <br />
 1. Click the New Feature tab on home page
 <br />
