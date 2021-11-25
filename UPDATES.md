@@ -174,3 +174,27 @@ step-3
 	<br />
 	4. Save the file and build docker image for frontend
 	<br />
+step-4
+```
+kubectl apply -f microservices-demo/release/kubernetes-manifests.yaml
+```
+<br />
+<br />
+**LFI**
+<br />
+step-1
+<br />
+1. Click the New Feature tab on home page
+<br />
+2. It will open development page
+<br />
+![image](https://user-images.githubusercontent.com/86401171/143502876-428c777c-6cd2-4e46-8038-78fcfa72b3eb.png)
+<br />
+3. Now try LFI payloads on the URL
+<br />
+```
+http://35.184.92.18/?file=../../../etc/passwd
+```
+<br />
+![image](https://user-images.githubusercontent.com/86401171/143503029-96272477-c3f2-4b34-a8c4-71cf29352aa5.png)
+<br />
