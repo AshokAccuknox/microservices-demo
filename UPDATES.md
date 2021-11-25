@@ -155,8 +155,17 @@ COPY ./sde ./sde
 
 ## Local File Inclusion
 **Deployment**
+<br />
 step-1
 ```
-kubectl apply -f release/lfi.yaml
+kubectl apply -f microservices-demo/release/lfi.yaml
 ```
-
+step-2
+```
+kubectl get svc | grep lfi
+```
+step-3
+	1. Copy the External IP
+	2. Open this file "microservices-demo/src/frontend/templates/header.html
+	3. Go to line 39 and change the <a> tag herf IP address using LFI External IP
+	4. Save the file and build docker image for frontend
