@@ -165,7 +165,12 @@ step-2
 kubectl get svc | grep lfi
 ```
 step-3
+<br />
 	1. Copy the External IP
+	<br />
 	2. Open this file "microservices-demo/src/frontend/templates/header.html
+	<br />
 	3. Go to line 39 and change the <a> tag herf IP address using LFI External IP
+	<br />
 	4. Save the file and build docker image for frontend
+	<br />
